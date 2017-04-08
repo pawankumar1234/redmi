@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>learning javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/javatcss.css">
+	<script type="text/javascript" src="js/javatjs.js"></script>
+</head>
+<body>
+<div class="header">
+	<h1 class="heading">Learning javascript</h1>
+	<p>With Brad Traversy</p>	
+</div>
+<div class="container">
+	<button onclick="changeText()">click me</button>
+</div>
+<script>
+function changeText(){
+	var heading=document.getElementById('heading');
+	heading.innerHTML="You clicked";
+}
+
+</script>
+</body>
+</html>

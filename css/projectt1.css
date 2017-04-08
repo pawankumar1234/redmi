@@ -1,0 +1,59 @@
+body{
+    letter-spacing: 1.8px;
+    position: absolute;
+}
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.container-fluid{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.margin{
+    padding-bottom: 45px;
+}
+.bg1{
+    background-color: azure;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+.bg2{
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.bg3{
+    background-color: aqua;
+}
+.bg4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: grey;
+    color: firebrick;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.small{
+    position: relative;
+    width: 50px;
+    height: 60px;
+    z-index: 999;
+        margin-left: 933px;
+    margin-top: -258px;
+}
+.container .img-rounded{
+    float: right;
+}

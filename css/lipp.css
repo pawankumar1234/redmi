@@ -1,0 +1,72 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    margin-top: 20px;
+}
+input{
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 280px;
+    height: 30px;
+    padding-left: 20px;
+    position: relative;
+
+}
+.fa-search{
+    right: 99px;
+    top: 7px;
+    position: absolute;
+    color: #f46541;
+}
+button{
+    
+    border: 0px solid #000000;
+    border-radius: 6px;
+    background-color: #f46541;
+    padding: 6px;
+    margin-top: 10px;
+    color: white;
+
+}
+.sub-header{
+    background-color: #087f73;
+
+    height: 20px;
+}
+.fa-circle{
+    color: #f46541;
+}
+.fa-stack.fa-lg{
+    margin-top: -10px;
+}
+
+.content{
+    background-image: url(../images/Desktop-nature-pictures-high-quality-Full-HD.jpg);
+    width: 100%;
+    height: auto;
+}
+.content h1{
+    float: right;
+    color: white;
+}
+footer{
+    width: 100%;
+    background-color: gainsboro;
+}
+.fa-facebook,.fa-twitter,.fa-linkedin{
+    margin-left: 10px;
+    font-size: 20px;
+}
+@media only screen and (min-width:500px;ma{
+    img{
+        width: 100%;
+    }
+    .sub-header{
+        height: 100%;
+    }
+    .sub-header.fa-stack{
+        float: left;
+    }
+})
